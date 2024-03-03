@@ -4,7 +4,7 @@ def majorityElement(arr):
     n = len(arr)
 
     for i in range(n):
-        if cnt == 0:
+        if cnt == 0: 
             cnt = 1       
         elif ele == arr[i]:
              cnt += 1
