@@ -3,7 +3,7 @@
 
 def twosum(arr,sum):
     arr.sort()
-    left = 0
+    left = 0 
     right=len(arr)-1
     while(left<=right):
         if(arr[left]+arr[right] > sum):
