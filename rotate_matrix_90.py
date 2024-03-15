@@ -5,7 +5,7 @@ def rotate(matrix: List[List[int]]) -> None:
 
     for i in range(n):
         for j in range(i):
-            arr[i][j] , arr[j][i] = arr[j][i] , arr[i][j]
+            arr[i][j] , arr[j][i] = arr[j][i] , arr[i][j] 
 
     for i in range(n):
         arr[i].reverse()
