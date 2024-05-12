@@ -5,7 +5,7 @@ def missing_number(str):
     k = (n*(n+1))//2
     print(k-a)
     print(n)
-
+ 
    # lst = str.split()
    # n = lst.length()
    # k = ((n+1)(n+2))/2
