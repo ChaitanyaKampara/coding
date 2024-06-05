@@ -7,7 +7,7 @@ def majorityElement(arr):
         if cnt == 0:
             cnt = 1       
         elif ele == arr[i]:
-             cnt += 1
+             cnt += 1 
         else:
             cnt -= 1
 # until here we are fixing element ele
